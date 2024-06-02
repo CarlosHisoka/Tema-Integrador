@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Informativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O que são os 5 Rs?</h1>
+        <p class="explica">Os 5 Rs são uma política que visa reduzir a geração de resíduos no nosso planeta,
+            fazendo com que cada um de nós mude o comportamento diante do consumo e a forma que lida com os resíduos gerados. 
+            Os 5 Rs consistem em cinco palavras: repensar, recusar, reduzir, reutilizar e reciclar.
+            <br>Aqui estão exemplos de cada R.
+        </p>
+        <div class="buttons">
+            <button class="info-button" onclick="mostrar('info1')">Repensar</button>
+            <button class="info-button" onclick="mostrar('info2')">Recusar</button>
+            <button class="info-button" onclick="mostrar('info3')">Reduzir</button>
+            <button class="info-button" onclick="mostrar('info4')">Reutilizar</button>
+            <button class="info-button" onclick="mostrar('info5')">Reciclar</button>
+        </div>
+        <div class="info-container">
+            <div id="info1" class="info-box">
+                <p>Cada pessoa deve repensar suas práticas em relação ao meio ambiente. Devemos repensar, por exemplo, nosso consumo e como fazemos o descarte dos nossos resíduos. Repensar é o início dessa mudança.</p>
+                <img src="imagens/Repensar.jpg" alt="Imagem 1">
+            </div>
+            <div id="info2" class="info-box">
+                <p>Chama-se a atenção para o consumismo — a aquisição de bens que não são necessários — e também para que sejamos críticos em relação ao que consumimos. Devemos pensar em adquirir apenas aquilo que realmente necessitamos e, de preferência, de empresas preocupadas com o meio ambiente.
+
+                </p>
+                <img src="Imagens/Recusar.jpg" alt="Imagem 2">
+            </div>
+            <div id="info3" class="info-box">
+                <p>Diz-se respeito, principalmente, ao nosso comportamento consumista. “Eu preciso realmente disso?” Faça essa pergunta sempre que for adquirir um novo produto. Além disso, reduzir significa poupar. Devemos saber economizar quando o assunto são os nossos recursos naturais. Esse é o caso, por exemplo, da água potável, que é, muitas vezes, utilizada de maneira indiscriminada.</p>
+                <img src="Imagens/Redução.jpg" alt="Imagem 3">
+            </div>
+            <div id="info4" class="info-box">
+                <p>É possível utilizar novamente alguns objetos que seriam descartados. Algumas embalagens podem ser reaproveitadas ou mesmo utilizadas para outras finalidades.</p>
+                <img src="Imagens/Reutilizar.jpg" alt="Imagem 4">
+            </div>
+            <div id="info5" class="info-box">
+                <p>Trata-se do reaproveitamento de um produto de modo que ele se torne matéria-prima para a fabricação de outro objeto. Reciclar é importante, pois ajuda a reduzir a quantidade de lixo gerado e também reduz a utilização dos nossos recursos naturais. Entre os materiais que podem ser reciclados estão: o papel, o plástico e o alumínio.</p>
+                <img src="Imagens/Reciclar.jpg" alt="Imagem 5">
+            </div>
+        </div>
+    </div>
+    <button class="Sobre" onclick="redirectToAboutPage()">Como este site foi elaborado</button>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
